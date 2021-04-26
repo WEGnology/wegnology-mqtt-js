@@ -1,6 +1,7 @@
 # WEGnology JavaScript MQTT Client
 
-[![Build Status](https://travis-ci.com/WEGnology/wegnology-mqtt-js.svg?branch=master)](https://travis-ci.com/WEGnology/wegnology-mqtt-js) [![npm version](https://badge.fury.io/js/wegnology-mqtt.svg)](https://badge.fury.io/js/wegnology-mqtt)
+<!-- [![Build Status](https://travis-ci.com/WEGnology/wegnology-mqtt-js.svg?branch=master)](https://travis-ci.com/WEGnology/wegnology-mqtt-js) -->
+[![npm version](https://badge.fury.io/js/wegnology-mqtt.svg)](https://badge.fury.io/js/wegnology-mqtt)
 
 The [WEGnology](https://docs.app.wnology.io) MQTT client provides a simple way for
 custom things to communicate with the WEGnology platform over MQTT.  You can
