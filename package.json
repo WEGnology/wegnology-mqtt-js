@@ -1,0 +1,43 @@
+{
+  "name": "wegnology-mqtt",
+  "version": "4.0.1",
+  "description": "An MQTT client for WEGnology",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WEGnology/wegnology-mqtt-js"
+  },
+  "main": "index.js",
+  "author": "WEGnology <hello@wegnology.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint *.js lib test examples",
+    "test": "mocha --recursive --reporter spec test/unit 2>&1",
+    "integration": "mocha --recursive --reporter spec test/integration 2>&1 -r .mocharc.js"
+  },
+  "engines": {
+    "node": ">= 8.0"
+  },
+  "dependencies": {
+    "debug": ">=3 <4",
+    "mqtt": "^2.18.8"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-es5": "^1.5.0",
+    "mocha": "^7.0.1",
+    "should": "^13.2.3"
+  },
+  "bugs": {
+    "url": "https://github.com/WEGnology/wegnology-mqtt-js/issues"
+  },
+  "homepage": "https://github.com/WEGnology/wegnology-mqtt-js#readme",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "keywords": [
+    "IoT",
+    "platform",
+    "MQTT"
+  ]
+}
